@@ -1,0 +1,40 @@
+.filter_btn {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    z-index: 9999;
+}
+
+.model_btn {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 8px 9px #D6D6DF;
+    background-color: #F2F2F4;
+}
+
+.model_btn button {
+    width: 100%;
+    height: 100%;
+    color: #60607D;
+}
+
+.css-1gm9ic5 {
+    overflow: auto;
+    width: 22rem;
+    height: 30rem;
+}
+
+.filter-heading {
+    text-align: center;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover,
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:active {
+    background-color: transparent !important;
+}

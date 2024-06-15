@@ -1,0 +1,90 @@
+.heading-section {
+    padding: 1rem 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.toggle-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.table-container {
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.table-data {
+    height: 25rem;
+    overflow: auto;
+}
+
+.toggle-section h3 {
+    margin-right: 0.725rem;
+}
+
+.table-data table thead th,
+.table-data table tbody tr td {
+    text-align: center;
+}
+
+.table-data table thead th {
+    padding: 8px;
+}
+
+.table-data table tbody tr td {
+    padding: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .heading-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #dashboard {
+        display: flex;
+    }
+
+    .navbar-section {
+        width: 13rem;
+        padding: 0 1rem;
+        box-shadow: 5px 0 3px -5px #D6D6DF;
+    }
+
+    .table-container {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+
+    .table-data {
+        height: 29rem;
+        overflow: auto;
+    }
+
+    .filter-contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .css-p55zm9-MuiButtonBase-root-MuiIconButton-root {
+        margin-right: 8px !important;
+    }
+
+    .view-subheading {
+        margin: 0;
+    }
+
+    /* .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+        height: 31.25rem;
+    } */
+}

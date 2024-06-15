@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #05051E;
+}
+
+.nav-container {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-container.active {
+    background-color: #05051E;
+    color: #F2F2F4;
+}
+
+.nav-container p {
+    display: none;
+}
+
+.nav-container:hover {
+    background-color: #05051E;
+    color: #F2F2F4;
+}
+
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+    background-color: #D6D6DF !important;
+}
+
+@media screen and (min-width: 924px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-container p {
+        display: block;
+    }
+
+    .nav-container p {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav {
+        display: block;
+    }
+}

@@ -1,0 +1,97 @@
+.filter-section {
+    margin-top: 1rem;
+}
+
+.filter-section .MuiFormControl-root {
+    margin-bottom: 1rem;
+}
+
+.filter-section .MuiFormControl-root label {
+    background-color: #FFF;
+}
+
+.single-selected-filter .single-lable,
+.multi-selected-filter .multi-lable,
+.calendar-range-filter .multi-lable {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.clear-btn,
+.clear-btns {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.clear-btn button,
+.clear-btns button {
+    width: 75%;
+    color: #FFFFFF;
+    background-color: #12295D;
+    border-color: #05051E;
+}
+
+.clear-btn button:hover,
+.clear-btns button:hover {
+    background-color: #F23A1D;
+    color: #12295D;
+    border-color: #F23A1D;
+}
+
+:where(.css-dev-only-do-not-override-kghr11).ant-picker-dropdown-range {
+    z-index: 99999;
+}
+
+:where(.css-dev-only-do-not-override-kghr11).ant-picker .ant-picker-input {
+    padding: 0.8rem;
+}
+
+:where(.css-dev-only-do-not-override-kghr11).ant-picker-outlined {
+    border-color: #8888A1;
+}
+
+:where(.css-dev-only-do-not-override-kghr11).ant-picker .ant-picker-suffix {
+    font-size: 1.5rem;
+    color: #8888A1;
+}
+
+@media screen and (min-width: 1200px) {
+    .single-selected-dropdown,
+    .calendar-selected-dropdown,
+    .calendar-range-dropdown,
+    .multi-selected-dropdown {
+        display: flex;
+    }
+
+    .single-selected-dropdown .MuiFormControl-root,
+    .multi-selected-dropdown .MuiFormControl-root {
+        width: 7rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .MuiStack-root {
+        padding-top: 0 !important;
+        margin-right: 0.5rem;
+    }
+
+    .filter-section {
+        margin-top: 0.3rem;
+    }
+
+    .btn-clr {
+        align-self: center;
+    }
+
+    .clear-btn {
+        margin-top: 0;
+    }
+
+    .embaded-tableau {
+        height: 34rem;
+    }
+}

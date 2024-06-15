@@ -1,0 +1,17 @@
+.empty-state {
+    display: flex;
+    justify-content: center;
+}
+
+.empty-state__icon {
+    align-items: center;
+}
+
+.empty-state__icon img {
+    width: 20rem;
+}
+
+.empty-state__message {
+    text-align: center;
+    margin-top: 2rem;
+}
